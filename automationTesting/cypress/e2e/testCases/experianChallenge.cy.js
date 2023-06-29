@@ -12,6 +12,7 @@ describe("Experian Challenge", () =>{
             .parents('div#SurveyControl_Question946')
             .find('input')
             .type('Sample')
+            
 
         cy.contains('label','Email Address')
             .parents('div#SurveyControl_Question949')
